@@ -26,5 +26,5 @@ def generate_qr_code(data, filename="qr_code.png"):
 if __name__ == "__main__":
     user_input = input("Enter the data to encode in the QR code (or press enter to use default): ")
     if not user_input:
-        user_input = "https://www.example.com"
+        user_input = "https://www.openai.com"
     generate_qr_code(user_input)
